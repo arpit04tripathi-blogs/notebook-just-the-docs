@@ -1,4 +1,4 @@
-# jekyll-template
+# notebook
 
 This repo is a template to create more repos for jekyll based repo.
 
