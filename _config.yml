@@ -9,6 +9,30 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# site variables
+logo: "/assets/logo/logo-arpit04tripathi.jpeg"
+favicon_ico: "/assets/images/favicon.ico"
+iconURL: "/assets/logo/logo-arpit04tripathi.jpeg" #url/iconURL
+cdn: https://raw.githubusercontent.com/arpit04tripathi/cdn/main/notebook
+
+collections_dir: content
+collections:
+  basics:
+    output: true
+  backend:
+    output: true
+  frontend:
+    output: true
+  devops:
+    output: true
+  architecture:
+    output: true
+  cse:
+    output: true
+  posts:
+    permalink: "/:collection/:path/"
+    output: true
+
 # Theme specific configs
 remote_theme: just-the-docs/just-the-docs
 aux_links: # Aux links for the upper right navigation
@@ -22,3 +46,26 @@ nav_external_links:
     url: https://roadmap.sh/
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+just_the_docs:
+  collections:
+    basics:
+      name: Basics
+      nav_fold: true
+    backend:
+      name: Backend
+      nav_fold: true
+    frontend:
+      name: Frontend
+      nav_fold: true
+    devops:
+      name: DevOps
+      nav_fold: true
+    architecture:
+      name: Architecture
+      nav_fold: true
+    cse:
+      name: CSE
+      nav_fold: true
+    posts:
+      name: Posts
+      nav_fold: true
