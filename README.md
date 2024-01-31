@@ -1,19 +1,6 @@
 # notebook
 
-This repo is a template to create more repos for jekyll based repo.
-
-# Getting started
-1. Create new repo using this template `Use this template` -> `Create a new repository`.
-2. `git clone` your repo to your laptop.
-3. Open in Editor, ex. Visual Studio Code
-4. you should have these installed - `docker` and `chrome browser`
-5. Run the command in terminal - `sh scripts/localhost.sh --new`
-6. This creates basic folder structure.
-7. Replace all instances of text `jekyll-template` with your repo name (example - `my-repo`), this will change below files
-   1. `docker-compose.yml` - change `container_name: jekyll-template` to `container_name: my-repo`
-   2. `localhost.sh` - `http://localhost:9999/jekyll-template/` to `http://localhost:9999/my-repo/`
-8. `Gemfile` - add `gem "webrick"`
-9. `_config.yml` - update `baseurl` as `/my-repo`
+Check the notebook live url.
 
 # Running on local
 1. start server - `sh scripts/localhost.sh`
@@ -41,5 +28,3 @@ git fetch --all -p; git pull; git status;
 git merge origin/main;
 git push;
 ```
-
-This is based on jekyll-theme [minima](https://github.com/jekyll/minima#contents-at-a-glance)
